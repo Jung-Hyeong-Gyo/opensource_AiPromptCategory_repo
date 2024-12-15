@@ -1,0 +1,27 @@
+# Python 캐시 파일 및 빌드 파일 제외
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# PyInstaller 빌드 및 실행 파일 제외
+build/
+dist/
+*.spec
+*.exe
+
+# 가상환경 폴더 제외
+venv/
+.env/
+
+# 로그 파일 및 임시 파일 제외
+*.log
+*.tmp
+
+# IDE 설정 파일 제외 (VSCode, PyCharm 등)
+.vscode/
+.idea/
+
+# 운영체제 파일 제외
+.DS_Store
+Thumbs.db
