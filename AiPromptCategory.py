@@ -86,7 +86,7 @@ def manage_prompts(categories):
         print("\n==== 현재 생성된 카테고리 ====")
         print(', '.join(categories.keys()))  # 카테고리 목록 출력
         
-        category = input("프롬포트를 수정하거나 추가할 카테고리를 입력하세요 (b: 뒤로가기): ").strip()
+        category = input("프롬포트를 추가하거나 수정할 프롬포트를 입력하세요 (b: 뒤로가기): ").strip()
 
         # 입력 검증
         if not category or category.strip() == "":
